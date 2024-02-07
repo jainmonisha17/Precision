@@ -4,6 +4,7 @@ from matplotlib import pyplot as plt
 from sklearn.metrics import confusion_matrix , classification_report
 import pandas as pd
 
+
 def print_confusion_matrix(confusion_matrix, class_names, figsize = (10,7), fontsize=14):
     """Prints a confusion matrix, as returned by sklearn.metrics.confusion_matrix, as a heatmap.
     
